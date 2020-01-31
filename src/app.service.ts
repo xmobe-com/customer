@@ -9,4 +9,7 @@ export class AppService {
     console.log(this.getHello.name);
     return 'Hello World!';
   }
+  sayGoodbye(): string {
+    return `Goodbye to you`;
+  }
 }
