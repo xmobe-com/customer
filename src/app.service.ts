@@ -12,4 +12,7 @@ export class AppService {
   sayGoodbye(): string {
     return `Goodbye to you`;
   }
+  sayonara(): string {
+    return 'mean goodbye';
+  }
 }
